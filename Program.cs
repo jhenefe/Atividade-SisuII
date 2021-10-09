@@ -73,15 +73,14 @@ namespace AtiviII
         public void area()
         {
             float area = ((adjacente * oposto) / 2);
-            Console.WriteLine(" O valor do area {0} ", area);
+            Console.WriteLine(" O valor do area = {0} ", area);
 
         }
         //Metedo hipotenusa
         public void calculaHipot()
         {
             int hipot = (this.GetOpo() / this.GetAdj());
-            Console.WriteLine(" O valor do hipotenusa é ");
-            Console.WriteLine(hipot);
+            Console.WriteLine(" O valor do hipotenusa é = {0} ",hipot);
             this.SetHipo(hipot);
         }
     }
@@ -92,13 +91,13 @@ namespace AtiviII
         {
             if (perimetro1 > perimetro2)
             {
-                Console.WriteLine(" T2 possui maoir área", perimetro1);
+                Console.WriteLine(" T1 possui maoir área = {0}", perimetro1);
             }
             else
             {
                 if (perimetro1 < perimetro2)
                 {
-                    Console.WriteLine(" T2 possui maoir área", perimetro2);
+                    Console.WriteLine(" T2 possui maoir área = {0}", perimetro2);
                 }
                 else
                 {
@@ -113,15 +112,21 @@ namespace AtiviII
     {
         static void Main(string[] args)
         {
+            
             Triangulos triangulos1 = new Triangulos(1, 15, 6);
+            Triangulos triangulos = new Triangulos();
+
+            Console.WriteLine("Valor Fixo Cateto Adjacente {0}", triangulos.GetAdj());
+            Console.WriteLine("Valor Fixo Cateto Adjacente {0}", triangulos.GetOpo());
+            Console.WriteLine("Valor Fixo Cateto Adjacente {0}", triangulos.GetHipo());
             //metodo perimetro 
-            Console.WriteLine("Valor perimetro {0}", triangulos1.perimetro());
+            Console.WriteLine("Valor perimetro  T1 = {0}", triangulos1.perimetro());
             //metodo area
             triangulos1.area();
             //metodo hipotenusa
             Triangulos triangulos2 = new Triangulos(1, 15);
             triangulos2.calculaHipot();
-            Console.WriteLine("Valor h {0}", triangulos2.GetHipo());
+            
             //metodo compara tringulos 
             ComparaTriang.ComparaT(triangulos1.perimetro(), triangulos2.perimetro());
             

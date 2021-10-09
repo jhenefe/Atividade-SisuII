@@ -1,0 +1,7 @@
+C:\Users\Wesley\Documents\AtiviII\AtiviII\obj\Debug\AtiviII.csprojAssemblyReference.cache
+C:\Users\Wesley\Documents\AtiviII\AtiviII\obj\Debug\AtiviII.csproj.CoreCompileInputs.cache
+C:\Users\Wesley\Documents\AtiviII\AtiviII\bin\Debug\AtiviII.exe.config
+C:\Users\Wesley\Documents\AtiviII\AtiviII\bin\Debug\AtiviII.exe
+C:\Users\Wesley\Documents\AtiviII\AtiviII\bin\Debug\AtiviII.pdb
+C:\Users\Wesley\Documents\AtiviII\AtiviII\obj\Debug\AtiviII.exe
+C:\Users\Wesley\Documents\AtiviII\AtiviII\obj\Debug\AtiviII.pdb
